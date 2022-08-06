@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Handlee', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+header{
+    background-image:url(image/1121877.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hr-style{
+    border: 7px dotted white;
+    border-bottom: none;
+    text-align: center;
+    width:60px; margin: auto;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0;
+
+}
+
+
+
+.banner-container{
+    height: 100vh;
+}
+.navbar{
+    padding: 0% 0%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: white;
+    
+
+}
+.navbar-brand{
+    font-size:70px;
+    color:#f9004d;
+    margin-right: 50px;
+    font-family:cursive; 
+    letter-spacing:.5px;
+   
+    
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: rgb(141, 246, 70);
+    color: white;
+    transform: scale(1.1);
+}
+.nav-item a{
+    font-weight: 900;
+}
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(19, 28, 36, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family:'handlee','cursive';
+}
+.color{
+    background-color: rgba(19, 28, 36, 0.8);
+}
+
+
+#features{
+    padding: 5% 10%;
+    background: #aaa9a8;
+
+}
+.features-col{
+    border: 2px solid #866e80;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px ;
+    transition: .3s;
+
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+.icon-style{
+    background: #63cbe6;
+    color: rgb(92, 87, 87);
+    padding: 15px 15px;
+    margin: 5px 0px;
+    width:auto;
+    height: auto;
+}
+
+
+
+#aboutme{
+    padding: 4% 10%;
+    background:#d42a60;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#aboutme a{
+    font-size: 0.9rem;
+     color: black;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+#aboutme,p{
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    font-weight: lighter;
+
+}
+ .achieve-desc span{
+    font-weight: 900;
+    text-shadow: #866e80;
+
+ }
+.star i{
+    width: 20px;
+    
+}
+.bor{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #c59bbb;
+     
+}
+.btn:hover{
+    background: #169b9b;
+    transform: scale(1.1);
+    transition: .5s;
+    color: black;
+    font-size: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+
+}

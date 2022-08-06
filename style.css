@@ -156,3 +156,49 @@ header{
     border: 1px solid black;
 
 }
+
+#tutorial{
+    padding: 4% 10%;
+    background: #a3d2ca;
+}
+.card{
+    transition: .4s;
+    border: 1px solid #f9004d;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+
+}
+.card-img{
+    width: 200px;
+    height: 350px;
+     
+}
+
+#feedback{
+    background:#5eaaa8;
+    padding: 5%;
+}
+.sl-img{
+    border-radius: 300px;
+    padding: 150px;
+    width: 120px;
+    height: auto;
+}
+ .fahim{
+    font-weight: 900;
+    font-size: 50px;
+    font-style: italic;
+ }
+
+
+ #contect{
+    padding: 2% 10%;
+    background-color: #5eaaa8;
+ }
+ 
+ .form-group label{
+    margin-bottom: 0px;
+    font-weight: bolder
+ }
